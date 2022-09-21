@@ -1,0 +1,31 @@
+.places__text{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0 16px 0 16px;
+  display: grid;
+  gap: 25px;
+}
+
+@media screen and (min-width: 768px){
+  .places__text{
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .places__text{
+    font-size: 18px;
+    line-height: 29px;
+    gap: 27px;
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .places__text{
+    gap: 26px;
+  }
+}

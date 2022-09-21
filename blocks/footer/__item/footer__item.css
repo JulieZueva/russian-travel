@@ -1,0 +1,16 @@
+.footer__item {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__item {
+    gap: 18px;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
