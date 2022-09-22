@@ -4,4 +4,9 @@
   background: #2A2C2F;
   border: none;
   padding: 0;
+  transition: opacity 0.3s ease;
+}
+
+.header__lang-link:hover {
+  opacity: 80%;
 }
