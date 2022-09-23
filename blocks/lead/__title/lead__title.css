@@ -3,9 +3,9 @@
   font-weight: 900;
   font-size: 40px;
   line-height: 44px;
-  margin: auto;
+  margin: 0;
   max-width: 288px;
-  padding: 0 14px 16px 14px;
+  padding: 0 0 16px 0;
   text-align: center;
 }
 
@@ -14,18 +14,6 @@
     font-size: 96px;
     line-height: 100px;
     max-width: 720px;
-    padding: 0 24px 32px 24px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .lead__title {
-    padding: 0 104px 32px 104px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .lead__title {
-    padding: 0 132px 32px 132px;
+    padding: 0 0 32px 0;
   }
 }
