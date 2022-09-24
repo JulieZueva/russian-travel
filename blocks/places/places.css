@@ -2,14 +2,14 @@
   max-width: 320px;
   display: grid;
   margin: 0;
-  padding: 0 0 61px 0;
+  padding: 0 0 66px 0;
   gap: 50px;
 }
 
 @media screen and (min-width: 768px){
   .places{
     max-width: 720px;
-    padding: 0 24px 42px 24px;
+    padding: 0 24px 90px 24px;
     gap: 73px;
   }
 }
