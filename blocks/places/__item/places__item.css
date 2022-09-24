@@ -10,7 +10,7 @@
     .places__item{
       max-width: 720px;
       grid-template-columns: 340px 1fr;
-      gap: 48px 28px;
+      gap: 0 28px;
     }
   }
 
